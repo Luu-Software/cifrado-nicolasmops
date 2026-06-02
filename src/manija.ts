@@ -8,3 +8,5 @@ let tarjetaTexto: string = preguntar('Ingresá el número de tarjeta: ');
 
 let red: string = ''; // COMPLETAR
 console.log(red);
+ // primero cheuquear para amex y mastercard, if not, cheuquear visa
+ 
