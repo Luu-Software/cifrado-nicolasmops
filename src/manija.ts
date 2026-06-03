@@ -1,12 +1,12 @@
 import { preguntar } from './lib/consola.ts';
 
 function obtenerPrefijo(numero: number, tamañoPrefijo: number): number {
-  return 0; // COMPLETAR
+  return Number(tarjetaTexto) / 10 ^ 16 - tamañoPrefijo
 }
 
 let tarjetaTexto: string = preguntar('Ingresá el número de tarjeta: ');
 
 let red: string = ''; // COMPLETAR
 console.log(red);
- // primero cheuquear para amex y mastercard, if not, cheuquear visa
+ // 
  
